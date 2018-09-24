@@ -1,0 +1,17 @@
+
+ create a new repository on the command line
+______________________________________________
+echo "# KM" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/chennasudhakar/KM.git
+git push -u origin master
+_____________________________________________________
+
+
+…or push an existing repository from the command line
+________________________________________________________________
+git remote add origin https://github.com/chennasudhakar/KM.git
+git push -u origin master
+________________________________________________________________
